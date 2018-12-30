@@ -1,0 +1,66 @@
+.my_tree_0 { margin-left: 0px; }
+.my_tree_1 { margin-left: 20px; }
+.my_tree_2 { margin-left: 40px; display: none; }
+.my_tree_3 { margin-left: 60px; display: none; }
+.my_tree_4 { margin-left: 80px; display: none; }
+.my_tree_5 { margin-left: 100px; display: none; }
+.my_tree_6 { margin-left: 120px; display: none; }
+.my_tree_7 { margin-left: 140px; display: none; }
+.my_tree_8 { margin-left: 160px; display: none; }
+.my_tree_9 { margin-left: 180px; display: none; }
+.my_tree_10 { margin-left: 200px; display: none; }
+
+.my_tree_icon
+{
+    width: 16px;
+    height: 16px;
+    border: 1px solid silver;
+    border-radius: 100px;
+    background: linear-gradient( white, gray );
+    float: left;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.my_tree_icon:hover
+{
+    border: 1px solid #7e8df8;
+    background: linear-gradient( #7e8df8, #3a50f2 );
+}
+
+.my_tree_node
+{
+    padding: 3px;
+}
+
+.my_tree_cnt
+{
+    border: 1px solid #d7dce0;
+    border-radius: 3px;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+.my_tree_cnt:hover
+{
+    background: linear-gradient( #daecf7, #ebf5fb);
+    border: 1px solid #daecf7;
+    cursor: pointer;
+}
+
+.my_tree_cnt_clicked
+{
+    background: linear-gradient( #fbbfc5, #fbced2);
+    border: 1px solid #fbbfc5;
+}
+
+.my_tree_check
+{
+    border-color: #ededed;!important;
+}
+
+.my_tree_check input
+{
+    margin-right: 5px;
+}
